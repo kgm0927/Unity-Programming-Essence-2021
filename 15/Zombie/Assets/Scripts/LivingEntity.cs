@@ -48,9 +48,12 @@ public class LivingEntity : MonoBehaviour, IDamageable {
         if (onDeath != null)
         {
             onDeath();
+          
         }
 
         // 사망 상태를 참으로 변경
         dead = true;
     }
+
+   
 }
